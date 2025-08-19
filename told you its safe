@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Picture</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #fff;
+        }
+        img {
+            width: 95vw;
+            max-height: 95vh;
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body>
+    <!-- Replace the src below with your image file name or a direct URL -->
+    <img src="https://placekitten.com/800/600" alt="Cat">
+</body>
+</html>
